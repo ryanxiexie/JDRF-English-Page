@@ -27,7 +27,7 @@ function getUrlParam(key) {
 
 // example: GA1.1.2142728155.1653310839 get id which match GA4 report App-instance ID 2142728155.1653310839
 // TODO: handle ga not exist
-const gaID = getCookie('_ga').substring(6);
+const gaID = getCookie('_ga') && getCookie('_ga').substring(6);
 console.log('ga ID is ', gaID);
 
 async function sendMarketingInfo(info) {
