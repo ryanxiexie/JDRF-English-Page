@@ -1,0 +1,160 @@
+body {
+  color: #000000;
+  background-color: #fff;
+  height: 100vh;
+}
+a:link,
+a:visited,
+div.responsive a:visited,
+div.responsive a:link {
+  color: #000;
+}
+a:hover {
+  color: #001aff;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #000;
+}
+.header {
+  background-color: #272757;
+  color: #000;
+}
+.header .navbar-right li {
+  background-color: #ffffff;
+}
+.header .navbar-right li:hover {
+  background-color: #eee;
+  color: rgb(0, 0, 0);
+}
+.header .navbar-right li a {
+  color: #042b6b;
+  font-weight: bold;
+}
+.header .navbar-right li a:hover {
+  color: #ffffff;
+  background-color: rgb(49, 112, 99);
+  font-size: larger;
+}
+.footer {
+  background-color: #858585;
+  color: #ffffff;
+  position: 'fixed';
+  bottom: 0;
+  align-self: center;
+}
+.footer a:link,
+.footer a:visited {
+  color: #ffffff;
+}
+.footer a:hover {
+  color: rgb(49, 112, 99);
+}
+.footer h4 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+/* donation form */
+div.donation-form-container.responsive {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+div.donation-level-input-container {
+  padding: 0px;
+  background-color: #2b3c59;
+} /*Menu toggle button*/
+.navbar-toggle {
+  display: none;
+  padding: 9px 10px;
+  margin: 15px 25px 8px 0;
+  background-color: #4777a8;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-brand {
+  height: auto;
+  max-width: 300px;
+}
+.navbar-brand img {
+  max-height: 200px;
+}
+
+.mainContainer {
+  background-image: url('https://cdn.wallpapersafari.com/53/75/zATHZC.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 250vh;
+}
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+} /* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+} /* Custom page footer */
+.footer {
+  padding-top: 20px;
+  border-top: 1px solid #e5e5e5;
+}
+.footer li a:hover {
+  text-decoration: none;
+}
+.copyright {
+  margin: 20px 0;
+  text-align: center;
+} /* Customize container */
+@media (min-width: 768px) {
+  main {
+    margin: 0 0;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .navbar-brand {
+    height: auto;
+    max-width: 50%; /* if nav is
+hidden, increase to 100% */
+  }
+  .navbar-toggle {
+    display: inline-block;
+  } /* To hide
+nav toggle: set to display:none */ /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  } /* Space out the
+masthead */
+  .header {
+    margin-bottom: 0;
+  }
+  .mainContainer {
+    height: 300vh;
+  }
+} /* Mobile Only */
+@media (max-width: 767px) {
+  main {
+    margin: 0 0;
+  }
+  .mainContainer {
+    height: 300vh;
+    background-image: none;
+  }
+  .pull-none-sm {
+    float: none !important;
+  }
+  .footer-box {
+    padding: 10px 0;
+  }
+  .mobile div.responsive {
+    width: 100%;
+  }
+}

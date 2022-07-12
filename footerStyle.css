@@ -1,0 +1,522 @@
+/************************************/
+/****UPDATE FONTS AND COLORS HERE****/
+/************************************/
+
+div.donation-level-amount-container,
+div.donation-level-label-container {
+  border: 1px solid #000;
+  background: #376faf;
+  padding: 8px 20px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #376faf;
+  min-width: 60px;
+  text-align: center;
+}
+
+.mobile div.responsive div.form-row div.form-content > select {
+  border: 1px solid #d9d6cf;
+  padding: 5px 7px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -webkit-box-shadow: inset 3px 3px 3px #f0f0f0;
+  -moz-box-shadow: inset 3px 3px 3px #f0f0f0;
+  box-shadow: inset 3px 3px 3px #f0f0f0;
+}
+
+div.donation-level-amount-container:hover,
+div.donation-level-label-container:hover {
+  background: #0265d6;
+}
+
+div.donation-level-input-container.form-input.active {
+  background: #0265d6;
+}
+
+div.payment-field-container,
+span.internal-payment {
+  border: none;
+}
+div.payment-field-container,
+div.payment-type-selections span {
+  zoom: 0.9;
+}
+
+div.donation-level-amount-container,
+div.donation-level-label-container {
+  vertical-align: initial;
+}
+
+div.donation-level-container {
+  display: inline-block;
+}
+
+label + div.donation-level-user-entered {
+  display: inline-block;
+  margin-left: 0;
+}
+
+div.donation-level-container input[type='radio'] {
+  position: relative;
+  left: -9999px;
+}
+
+div.donation-level-input-container input[type='radio'] {
+  display: none;
+}
+div.donation-level-user-entered label {
+  display: none;
+}
+div.donation-level-label-input-container {
+  display: none;
+}
+
+.mobile div.responsive input[type='text'],
+.mobile div.responsive input[type='number'],
+.mobile div.responsive input[type='password'],
+.mobile div.responsive textarea,
+.mobile div.responsive input,
+.mobile div.responsive select {
+  border-radius: 0;
+  padding: 5px 7px;
+  height: 40px;
+  border: 1px solid #272757;
+  box-shadow: none;
+  font-size: 15px;
+  background: #edeeee;
+}
+
+/* donation form */
+div.donation-form-container.responsive {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+div.donation-level-input-container {
+  padding: 0px;
+  background: #272757;
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+  font-size: 25px !important;
+  margin: 0 5px;
+}
+
+/*Donation form next, previous, cancel step buttons*/
+div.responsive a.next-step,
+div.responsive button.next-step,
+div.responsive a.step-button,
+div.responsive button.step-button,
+div.responsive input.step-button {
+  background-color: #4777a8;
+  background-image: none;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 20px;
+  margin-right: 5px;
+}
+
+/*Donation form hover/active/focus states for next, previous, cancel step buttons*/
+div.responsive a.next-step:hover,
+div.responsive button.next-step:hover,
+div.responsive button.cancel-step:hover,
+div.responsive button.cancel-step:focus,
+div.responsive button.cancel-step:active {
+  background-image: none;
+  background-color: #d6d6d6;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+div.donation-level-container:last-of-type,
+div.donation-level-label-container,
+div.donation-level-container:last-of-type,
+div.donation-level-input-container label {
+  display: none;
+}
+
+.donation-level-input-container input
+
+/*progress page steps*/
+div.progress-bar-step-container {
+  padding-right: 33px; /*add space between the labels*/
+}
+div.progress-bar-step-current div.progress-bar-step-number-container {
+  background: #4777a8;
+}
+
+/*progress page steps*/
+div.progress-bar-step-number-container {
+  width: 44px;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
+/* Donation form Labels */
+LABEL.FormLabel {
+  width: initial; /*reset to prevent wrapping of required * */
+  min-width: initial; /*reset to prevent wrapping of required * */
+  font-weight: 700; /* match the bootstrap font weight */
+}
+
+/************************************/
+/*************FORMATTING*************/
+/************************************/
+
+.mobile div.responsive div.donation-level-container {
+  float: left;
+  margin-right: 20px;
+}
+label + .mobile div.responsive div.donation-level-user-entered {
+  margin-left: 4px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.mobile div.responsive input[type='radio'] {
+  margin: 5px 0 0 0;
+}
+.mobile div.responsive div.donation-level-input-container,
+.mobile div.responsive div.generic-repeat-label-checkbox-container {
+  padding: 0 0 10px;
+}
+.mobile div.responsive div.donation-level-user-entered input {
+  width: 100px;
+}
+.mobile div.responsive div.form-content {
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+div.responsive label {
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.mobile div.responsive div.html-caption-container {
+  width: auto;
+  clear: both;
+}
+.mobile div.html-caption-container {
+  width: 100%;
+  height: 100%;
+}
+
+/********************************************************/
+/****THIS SECTION CONTAINS ROWS YOU WANT TO FLOAT********/
+/********************************************************/
+
+.mobile div.responsive #donor_title_row,
+.mobile div.responsive #donor_first_name_row,
+.mobile div.responsive #donor_middle_name_row,
+.mobile div.responsive #donor_last_name_row,
+.mobile div.responsive #donor_addr_street1_row,
+.mobile div.responsive #donor_addr_street2_row,
+.mobile div.responsive #donor_addr_city_row,
+.mobile div.responsive #donor_addr_zip_row,
+.mobile div.responsive #donor_addr_state_row,
+.mobile div.responsive #donor_addr_country_row,
+.mobile div.responsive #donor_phone_row,
+.mobile div.responsive #billing_info_same_as_donor_row,
+.mobile div.responsive #donor_email_address_row,
+.mobile div.responsive #billing_first_name_row,
+.mobile div.responsive #billing_middle_name_row,
+.mobile div.responsive #billing_last_name_row,
+.mobile div.responsive #billing_suffix_row,
+.mobile div.responsive #billing_addr_street1_row,
+.mobile div.responsive #billing_addr_street2_row,
+.mobile div.responsive #billing_addr_street3_row,
+.mobile div.responsive #billing_addr_city_row,
+.mobile div.responsive #billing_addr_zip_row,
+.mobile div.responsive #billing_addr_state_row,
+.mobile div.responsive #billing_addr_country_row,
+.mobile div.responsive #tribute_notify_recip_street1_row,
+.mobile div.responsive #tribute_notify_recip_street2_row,
+.mobile div.responsive #tribute_notify_recip_city_row,
+.mobile div.responsive #tribute_notify_recip_state_row,
+.mobile div.responsive #tribute_notify_recip_zip_row,
+.mobile div.responsive #tribute_notify_recip_name_row,
+.mobile div.responsive #tribute_notify_recip_country_row,
+.mobile div.responsive #tribute_honoree_name_row,
+.mobile div.responsive #tribute_honoree_first_name_row,
+.mobile div.responsive #tribute_honoree_last_name_row {
+  float: left;
+  margin-right: 10px;
+  min-height: 70px;
+}
+
+/********************************************************/
+/****THIS SECTION CONTAINS ROWS YOU WANT NOT TO FLOAT****/
+/********************************************************/
+.mobile div.responsive #donor_addr_country_row,
+.mobile div.responsive #billing_info_same_as_donor_row,
+.mobile div.responsive #single_designee_row,
+.mobile div.responsive .section-header-container {
+  clear: both;
+}
+/********************************************************/
+
+.mobile div.responsive #donor_email_address_row input,
+.mobile div.responsive #billing_first_name_row input,
+.mobile div.responsive #billing_middle_name_row input,
+.mobile div.responsive #billing_last_name_row input,
+.mobile div.responsive #billing_suffix_row input,
+.mobile div.responsive input#tribute_honoree_name,
+.mobile div.responsive input#tribute_honoree_namename,
+.mobile div.responsive input#tribute_notify_recip_namename,
+.mobile div.responsive #tribute_notify_recip_street1_row input,
+.mobile div.responsive #tribute_notify_recip_street2_row input,
+.mobile div.responsive #tribute_notify_recip_city_row input,
+.mobile div.responsive #tribute_notify_recip_state_row input,
+.mobile div.responsive #tribute_notify_recip_zip_row input,
+.mobile div.responsive #employer_street_row input,
+.mobile div.responsive #billing_addr_street1_row input,
+.mobile div.responsive #billing_addr_street2_row input,
+.mobile div.responsive #billing_addr_street3_row input,
+.mobile div.responsive #billing_addr_country_row input,
+div.payment-field-container #responsive_payment_typecc_number_row input,
+.mobile div.responsive #billing_addr_city_row input,
+.mobile div.responsive #billing_addr_zip_row input,
+.mobile div.responsive #donor_addr_zip_row input,
+.mobile div.responsive #donor_first_name_row input,
+.mobile div.responsive #donor_last_name_row input,
+.mobile div.responsive #organization_name_input,
+.mobile div.responsive #donor_addr_street1_row input,
+.mobile div.responsive #donor_addr_street2_row input,
+.mobile div.responsive #donor_addr_street3_row input,
+.mobile div.responsive #donor_addr_city_row input,
+.mobile div.responsive #donor_addr_country_row input,
+.mobile div.responsive #donor_phone_row input,
+.mobile div.responsive #donor_email_address_row input,
+.mobile div.responsive #shipping_addr_street1_row input,
+.mobile div.responsive #shipping_addr_street2_row input,
+.mobile div.responsive #shipping_addr_street3_row input,
+.mobile div.responsive #shipping_addr_country_row input,
+.mobile div.responsive #tribute_notify_recip_street1_row input,
+.mobile div.responsive #tribute_notify_recip_street2_row input,
+.mobile div.responsive #tribute_notify_recip_street3_row input,
+.mobile div.responsive #tribute_notify_recip_country_row input,
+.mobile div.responsive #tribute_signature_row input,
+.mobile div.responsive #tribute_message_closing_row input,
+.mobile div.responsive #tribute_notify_recip_city_row input,
+.mobile div.responsive #tribute_notify_recip_zip_row input,
+.mobile div.responsive #payment_typecc_number_row input,
+.mobile div.responsive #payment_typecc_cvv_row input,
+.mobile
+  div.responsive
+  div.payment-field-container
+  #responsive_payment_typerouting_number_row
+  input,
+.mobile
+  div.responsive
+  div.payment-field-container
+  #responsive_payment_typebank_account_row
+  input,
+.mobile
+  div.responsive
+  div.payment-field-container
+  #responsive_payment_typeverify_bank_account_row
+  input {
+  width: 300px;
+  height: 40px;
+  border-radius: 0;
+  border-style: solid;
+  border: none;
+  border-width: 1px;
+  border: 1px solid #005399;
+  box-shadow: none;
+  font-size: 16px;
+  display: inline-block;
+  background: #edeeee;
+}
+
+div.payment-field-container span.payment-type-option.selected {
+  background: #5cb6c4;
+}
+
+div.payment-field-container span.internal-payment {
+  border: none;
+}
+
+div.payment-field-container div.payment-type-selections span {
+  height: 50px;
+}
+
+div.payment-field-container span.payment-type-option {
+  border: none;
+}
+
+div.payment-field-container span.payment-type-option {
+  background: rgb(216, 214, 214);
+  border: none;
+  height: 50px;
+}
+
+.mobile
+  div.responsive
+  div.payment-field-container
+  select#responsive_payment_typecc_exp_date_MONTH,
+.mobile
+  div.responsive
+  div.payment-field-container
+  select#responsive_payment_typecc_exp_date_YEAR,
+.mobile div.responsive #donor_addr_state_row select#donor_addr_state,
+.mobile div.responsive #donor_addr_zip_row select#donor_addr_zipname,
+.mobile div.responsive #donor_addr_country_row select#donor_addr_country,
+.mobile div.responsive select {
+  width: 300px;
+  height: 30px;
+}
+
+.mobile div.responsive button.step-button,
+.mobile div.responsive button.cancel-step {
+  max-width: 150px;
+  width: 150px;
+}
+
+.mobile div.responsive div.donation-level-input-container,
+.mobile div.responsive div.generic-repeat-label-checkbox-container {
+  padding: 0;
+}
+
+.mobile div.responsive div.donation-level-user-entered {
+  display: block;
+  float: right;
+  margin-left: 5px;
+  margin-top: 0;
+}
+
+.mobile div.responsive div.donation-level-amount-container {
+  margin-top: 0px;
+}
+
+.mobile div.responsive div.donation-level-label-container {
+  margin-top: 0px;
+}
+
+.mobile div.responsive div.button-container {
+  border-top: 0 none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.mobile div.responsive div.button-container {
+  display: inline-block;
+}
+
+.mobile div.responsive div.form-row {
+  margin-top: 15px;
+}
+
+LABEL.FormLabel {
+  width: auto;
+  min-width: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+  .mobile div.responsive img,
+  .mobile div.html-caption-container {
+    width: 100%;
+  }
+
+  .mobile div.responsive ul.radio-array-list li.tender-row img,
+  .mobile div.responsive div.payment-type-element-container img.sample {
+    width: auto;
+  }
+
+  .mobile div.responsive {
+    width: 90%;
+  }
+  .mobile div.responsive #donor_email_address_row input,
+  .mobile div.responsive #billing_first_name_row input,
+  .mobile div.responsive #billing_middle_name_row input,
+  .mobile div.responsive #billing_last_name_row input,
+  .mobile div.responsive #billing_suffix_row input,
+  .mobile div.responsive input#tribute_honoree_name,
+  .mobile div.responsive input#tribute_honoree_namename,
+  .mobile div.responsive input#tribute_notify_recip_namename,
+  .mobile div.responsive #tribute_notify_recip_street1_row input,
+  .mobile div.responsive #tribute_notify_recip_street2_row input,
+  .mobile div.responsive #tribute_notify_recip_city_row input,
+  .mobile div.responsive #tribute_notify_recip_state_row input,
+  .mobile div.responsive #tribute_notify_recip_zip_row input,
+  .mobile div.responsive #employer_street_row input,
+  .mobile div.responsive #billing_addr_street1_row input,
+  .mobile div.responsive #billing_addr_street2_row input,
+  .mobile div.responsive #billing_addr_street3_row input,
+  .mobile div.responsive #billing_addr_country_row input,
+  .mobile div.responsive #billing_addr_city_row input,
+  .mobile div.responsive #billing_addr_zip_row input,
+  .mobile div.responsive #donor_addr_zip_row input,
+  .mobile div.responsive #donor_first_name_row input,
+  .mobile div.responsive #donor_last_name_row input,
+  .mobile div.responsive #organization_name_input,
+  .mobile div.responsive #donor_addr_street1_row input,
+  .mobile div.responsive #donor_addr_street2_row input,
+  .mobile div.responsive #donor_addr_street3_row input,
+  .mobile div.responsive #donor_addr_city_row input,
+  .mobile div.responsive #donor_addr_country_row input,
+  .mobile div.responsive #donor_phone_row input,
+  .mobile div.responsive #donor_email_address_row input,
+  .mobile div.responsive #shipping_addr_street1_row input,
+  .mobile div.responsive #shipping_addr_street2_row input,
+  .mobile div.responsive #shipping_addr_street3_row input,
+  .mobile div.responsive #shipping_addr_country_row input,
+  .mobile div.responsive #tribute_notify_recip_street1_row input,
+  .mobile div.responsive #tribute_notify_recip_street2_row input,
+  .mobile div.responsive #tribute_notify_recip_street3_row input,
+  .mobile div.responsive #tribute_notify_recip_country_row input,
+  .mobile div.responsive #tribute_signature_row input,
+  .mobile div.responsive #tribute_message_closing_row input,
+  .mobile div.responsive #tribute_notify_recip_city_row input,
+  .mobile div.responsive #tribute_notify_recip_zip_row input,
+  .mobile div.responsive #payment_typecc_number_row input,
+  .mobile div.responsive #payment_typecc_cvv_row input,
+  .mobile
+    div.responsive
+    div.payment-field-container
+    #responsive_payment_typerouting_number_row
+    input,
+  .mobile
+    div.responsive
+    div.payment-field-container
+    #responsive_payment_typebank_account_row
+    input,
+  .mobile
+    div.responsive
+    div.payment-field-container
+    #responsive_payment_typeverify_bank_account_row
+    input {
+    width: 200px;
+  }
+
+  .mobile
+    div.responsive
+    div.payment-field-container
+    select#responsive_payment_typecc_exp_date_MONTH,
+  .mobile
+    div.responsive
+    div.payment-field-container
+    select#responsive_payment_typecc_exp_date_YEAR,
+  .mobile div.responsive #donor_addr_state_row select#donor_addr_state,
+  .mobile div.responsive #donor_addr_zip_row select#donor_addr_zipname,
+  .mobile div.responsive #donor_addr_country_row select#donor_addr_country,
+  .mobile div.responsive select {
+    max-width: 210px;
+    width: 210px;
+  }
+
+  .mobile div.donation-form-container.responsive {
+    padding: 0 5% 5%;
+  }
+
+  div.donation-level-amount-container,
+  div.donation-level-label-container {
+    padding: 8px 10px;
+  }
+} /* End @media  screen and  max-width: 700px */
